@@ -21,4 +21,5 @@ To access this project on your local files, you can clone it using these steps
 ### Live Site
 View [live](https://ngetichnick.github.io/Akan-Name/)
 ### License2
-This project is under the (/LICENSE)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+This project is under the:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
