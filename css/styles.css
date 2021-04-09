@@ -22,7 +22,7 @@
 }
 span {
   font-style: oblique;
-  color: ;
+  color: #003049;
 }
 #caption {
   font-size: 14px;
@@ -37,4 +37,10 @@ span {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+h1 {
+  color: #C10005;
+}
+h2 {
+  color: #DC8212;
 }
