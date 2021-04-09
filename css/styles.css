@@ -28,3 +28,13 @@ span {
   font-size: 14px;
   color: #DC8212;
 }
+#footer{
+  padding-top: 15px;
+  height: 40px;
+  background-color: #003049;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
