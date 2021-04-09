@@ -44,3 +44,17 @@ h1 {
 h2 {
   color: #DC8212;
 }
+input[type=submit] {
+  width: 25%;
+  background-color: #003049;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #DC8212;
+}
