@@ -13,8 +13,10 @@
 }
 #menu ul {
   list-style: none;
+  padding-top: 30px;
 }
 #menu ul li a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
