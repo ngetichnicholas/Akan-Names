@@ -3,7 +3,7 @@
 Nicholas Ngetich
 ## Description
 This is a project that takes in your date of birth and and return an Akan-Name
-![alt text]()
+![alt text](https://github.com/ngetichnick/Akan-Name/blob/main/Akan-Name%20%20%20IP.png)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
