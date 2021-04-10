@@ -71,16 +71,15 @@
         <h3 class="card-title">Get Akan Name</h3>
       <form action="" class="card-body">
         <label for="date">Select Date:</label>
-        <input type="date" id="myDate" value="YYYY-MM-DD"><br>
-        <label for="date">Select Gender:</label>
-        <select id="gender" name="gender" form="">
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-        </select><br>
-        <input type="submit">
+        <input type="date" id="myDate" value="00-00-00"><br>
+        
+        <input type="button" onClick="callingFunction()" Value="Submit" />
       </form>
       </div>
     </div> 
+    <div id="hidden">
+      <span id="output"></span>
+    </div>
     <div id="footer">
       <p>© 2021 Nicholas Ngetich</p>
     </div>

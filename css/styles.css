@@ -47,7 +47,7 @@ h2 {
 h3 {
   color: #DC8212;
 }
-input[type=submit] {
+input[type=button] {
   width: 25%;
   background-color: #003049;
   color: white;
