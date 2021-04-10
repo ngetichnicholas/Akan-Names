@@ -31,61 +31,61 @@ function callingFunction() {
         switch(gender){
           case "Male":
             if (currentDayName == days[0]){
-              let output = "You were born on: " + "<span>" +currentDayName + "</span>" + " Your Akan name is: " + "<span>" + maleNames[0] + "</span>";
+              let output = "You were born on: " + "<span>" +currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>" + maleNames[0] + "</span>";
               return output;
             }
             else if(currentDayName == days[1]){
-              let output = "You were born on: " + "<span>" +currentDayName + "</span>" + " Your Akan name is: " + "<span>" + maleNames[1] + "</span>";
+              let output = "You were born on: " + "<span>" +currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>" + maleNames[1] + "</span>";
               return output;
             }
             else if(currentDayName == days[2]){
-              let output = "You were born on: " + "<span>"+ currentDayName + "</span>" + " Your Akan name is: " + "<span>" + maleNames[2] + "</span>";
+              let output = "You were born on: " + "<span>"+ currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>" + maleNames[2] + "</span>";
               return output;
             }
             else if(currentDayName == days[3]){
-              let output = "You were born on: " + "<span>" +currentDayName + "</span>" + " Your Akan name is: " + "<span>" + maleNames[3] + "</span>";
+              let output = "You were born on: " + "<span>" +currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>" + maleNames[3] + "</span>";
               return output;
             }
             else if(currentDayName == days[4]){
-              let output = "You were born on: "+ "<span>"+currentDayName + "</span>" + " Your Akan name is: " + "<span>" + maleNames[4] + "</span>";
+              let output = "You were born on: "+ "<span>"+currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>" + maleNames[4] + "</span>";
               return output;
             }
             else if(currentDayName == days[5]){
-              let output = "You were born on: "+ "<span>" +currentDayName + "</span>" + " Your Akan name is: " + "<span>" + maleNames[5] + "</span>";
+              let output = "You were born on: "+ "<span>" +currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>" + maleNames[5] + "</span>";
               return output;
             }
             else if(currentDayName == days[6]){
-              let output = "You were born on: " + "<span>" +currentDayName + "</span>" + " Your Akan name is: "+ "<span>" + maleNames[6] + "</span>";
+              let output = "You were born on: " + "<span>" +currentDayName + "</span>"+"<br>" + " Your Akan name is: "+ "<span>" + maleNames[6] + "</span>";
               return output;
             }
           break;
           case "Female":
             if (currentDayName == days[0]){
-              let output = "You were born on " + "<span>"+ currentDayName + "</span>" + ". Your Akan name is " + "<span>"+ femaleNames[0] + "</span>";
+              let output = "You were born on " + "<span>"+ currentDayName + "</span>"+"<br>" + ". Your Akan name is " + "<span>"+ femaleNames[0] + "</span>";
               return output;
             }
             else if(currentDayName == days[1]){
-              let output = "You were born on: " + "<span>"+ currentDayName + "</span>" + " Your Akan name is: " + "<span>"+ femaleNames[1] + "</span>";
+              let output = "You were born on: " + "<span>"+ currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>"+ femaleNames[1] + "</span>";
               return output;
             }
             else if(currentDayName == days[2]){
-              let output = "You were born on: " + "<span>"+currentDayName + "</span>" + " Your Akan name is: " + "<span>"+ femaleNames[2] + "</span>";
+              let output = "You were born on: " + "<span>"+currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span>"+ femaleNames[2] + "</span>";
               return output;
             }
             else if(currentDayName == days[3]){
-              let output = "You were born on: " + "<span>"+ currentDayName + "</span>" + " Your Akan name is: " + "<span>"+ femaleNames[3] + "</span>";
+              let output = "You were born on: " + "<span>"+ currentDayName + "</span>"+"<br>"+ " Your Akan name is: " + "<span>"+ femaleNames[3] + "</span>";
               return output;
             }
             else if(currentDayName == days[4]){
-              let output = "You were born on: " + "<span>"+currentDayName + "</span>" + " Your Akan name is: " + "<span> "+ femaleNames[4] + "</span>";
+              let output = "You were born on: " + "<span>"+currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span> "+ femaleNames[4] + "</span>";
               return output;
             }
             else if(currentDayName == days[5]){
-              let output = "You were born on: " + "<span>"+currentDayName + "</span>" + " Your Akan name is: " + "<span> "+ femaleNames[5] + "</span>";
+              let output = "You were born on: " + "<span>"+currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span> "+ femaleNames[5] + "</span>";
               return output;
             }
             else if(currentDayName == days[6]){
-              let output = "You were born on: " + "<span>"+currentDayName + "</span>" + " Your Akan name is: " + "<span> "+ femaleNames[6] + "</span>";
+              let output = "You were born on: " + "<span>"+currentDayName + "</span>"+"<br>" + " Your Akan name is: " + "<span> "+ femaleNames[6] + "</span>";
               return output;
             }
           break;

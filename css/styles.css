@@ -1,5 +1,6 @@
 body {
   background-color: #F1DFDF;
+  text-align: justify;
 }
 .header{
   height: 120px;
@@ -42,10 +43,10 @@ span {
   text-align: center;
 }
 h2 {
-  color: #C10005;
+  color: #875536;
 }
 h3 {
-  color: #DC8212;
+  color: #856c1b;
 }
 input[type=button] {
   width: 25%;
@@ -58,8 +59,8 @@ input[type=button] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #DC8212;
+input[type=button]:hover {
+  background-color: #875536;
 }
 #hidden {
   display: none;
@@ -70,6 +71,6 @@ input[type=submit]:hover {
   text-align: center;
 }
 #hidden p {
-font-size: 2em;
+font-size: 28px;
 color: white;
 }
