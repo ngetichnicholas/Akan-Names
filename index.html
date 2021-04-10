@@ -70,9 +70,13 @@
         </ol>
         <h3 class="card-title">Get Akan Name</h3>
         <p>The form below requires one to chose his or her date of birth and gender. The form has an embedded date calender which enables you to select the year, month and day in which you were born. As a user, you only need to click on selection appropriately on the date and gender input fields.</p>
+        <div class="" id="hidden">
+          <p>Congratulations!!!</p>
+          <p id="output"></p>
+        </div>
         <p><strong>NOTE</strong>:You must select your date of birth and gender to get your Akan name right.</p>
         <div class="card">
-          <form id="form" action="#hidden" class="card-body">
+          <form name="form" action="#hidden" class="card-body">
             <label class="col-form-label" for="date">Select Date:</label>
             <input class="input-group-text" type="date" id="myDate" value="00-00-00">
             <label class="col-form-label"  for="gender">Select Gender:</label>
@@ -81,14 +85,11 @@
               <option value="Female">Female</option>
             </select>
             <input type="button" onClick="callingFunction()" Value="Submit" />
+            <input type="button" onClick="reset()" Value="Reset" />
           </form>
         </div>
       </div>
     </div> 
-    <div class="" id="hidden">
-      <p>Congratulations!!! We just got you a new name!!!</p>
-      <p id="output"></p>
-    </div>
     <div id="footer">
       <p>© 2021 Nicholas Ngetich</p>
     </div>

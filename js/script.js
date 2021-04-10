@@ -1,5 +1,6 @@
 function callingFunction() {
   function akanNaming() {
+    var frm = document.getElementsByName('form')[0];
     var bday;
     bday = document.getElementById("myDate").value;
     let gender = document.getElementById("gender").value
@@ -94,4 +95,8 @@ function callingFunction() {
   }
   document.getElementById("hidden").style.display = 'block';
   document.getElementById("output").innerHTML = akanNaming();
+  var frm = document.getElementsByName('form')[0]; 
+  frm.submit(); // Submit 
+  frm.reset();  // Reset 
+  return false; // Prevent page refresh 
 }

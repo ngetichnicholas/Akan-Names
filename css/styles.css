@@ -64,12 +64,11 @@ input[type=submit]:hover {
 #hidden {
   display: none;
   align-items: center;
-  background-color: #DC8212;
-  margin: 10px 20% 10px 20%;
+  background-color: #D1A9B1;
   height: 300px;
   text-align: center;
 }
 #hidden p {
-font-size: 3em;
+font-size: 2em;
 color: white;
 }
