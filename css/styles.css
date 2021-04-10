@@ -61,3 +61,15 @@ input[type=button] {
 input[type=submit]:hover {
   background-color: #DC8212;
 }
+#hidden {
+  display: none;
+  align-items: center;
+  background-color: #DC8212;
+  margin: 10px 20% 10px 20%;
+  height: 300px;
+  text-align: center;
+}
+#hidden p {
+font-size: 3em;
+color: white;
+}
