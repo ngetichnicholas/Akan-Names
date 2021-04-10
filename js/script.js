@@ -2,10 +2,12 @@ function callingFunction() {
   function akanNaming() {
     var bday;
     bday = document.getElementById("myDate").value;
+    let gender = document.getElementById("gender").value
     var bdayArray = bday.split('-');
-    
-    
     //validation
+    if (gender.length === 0) {
+      alert("Select Gender")
+    } 
     if(bdayArray.length !== 3){
          alert("invalid Date");
     }else{
@@ -14,7 +16,9 @@ function callingFunction() {
            !bdayArray[2].match(/^\d\d$/)){
             alert("invalid Date");    
         }else{
-            var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];     
+            var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];
+            let maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
+            let femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
             var currentTime = new Date(            
                 parseInt(bdayArray[0]),
                 parseInt(bdayArray[1]) - 1, //month starts from 0
