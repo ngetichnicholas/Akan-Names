@@ -23,4 +23,4 @@ View [live](https://ngetichnick.github.io/Akan-Name/)
 ### License
 This project is under:  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)  
-Copyright &copy; [2021] **[Nicholas Ngetich](https://github.com/ngetichnick)**
+Copyright &copy; 2021 **[Nicholas Ngetich](https://github.com/ngetichnick)**

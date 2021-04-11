@@ -1,6 +1,8 @@
 body {
   background-color: #F1DFDF;
   text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 .header{
   height: 120px;
