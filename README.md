@@ -2,7 +2,7 @@
 ## Author
 Nicholas Ngetich
 ## Description
-This is a project is about the Akan naming system used by the people of Ghana. They name their children after the day of the week they were born. The project contains a form with an embedded date calender which enables one to select the year, month and day in which you were born. As a user, you only need to click on selection appropriately on the date and gender input fields.
+This project is about Akan naming system used by the people of Ghana. The Akan people name their children after the day of the week they were born. The project contains a form with an embedded date calender which enable users to select the year, month and day in which they were borned. As a user, you only need to click on selection appropriately on the date and gender input fields.
 ![alt text](https://github.com/ngetichnick/Akan-Name/blob/main/Akan-Name%20%20%20IP%20.png)
 ### Prerequisites
 You need to have git installed
