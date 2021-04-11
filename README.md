@@ -3,7 +3,7 @@
 Nicholas Ngetich
 ## Description
 This is a project that takes in your date of birth and and return an Akan-Name
-![alt text](https://github.com/ngetichnick/Akan-Name/blob/main/Akan-Name%20%20%20IP.png)
+![alt text](https://github.com/ngetichnick/Akan-Name/blob/main/Akan-Name%20%20%20IP%20.png)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -23,3 +23,4 @@ View [live](https://ngetichnick.github.io/Akan-Name/)
 ### License
 This project is under:  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
+Copyright &copy; [2021] **[Nicholas Ngetich](https://github.com/ngetichnick)**
