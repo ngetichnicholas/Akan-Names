@@ -6,13 +6,18 @@ function callingFunction() {
     //validation
     if(bdayArray.length !== 3){
       alert("invalid Date");
+      throw new Error; //Abort javascript execution from here
+      
     }
     else {
       if(!bdayArray[0].match(/^\d\d\d\d$/) || !bdayArray[1].match(/^\d\d$/) || !bdayArray[2].match(/^\d\d$/)) {
-        alert("invalid Date");    
+        alert("invalid Date");
+        throw new Error;  //Abort javascript execution from here
       }
       else if (gender.length===0) {
         alert("Please select your gender")
+        throw new Error; //Abort javascript execution from here
+        
       }
       else {
         document.getElementById("hidden").style.display = 'block';
