@@ -1,10 +1,8 @@
 function callingFunction() {
   function akanNaming() {
-    var frm = document.getElementsByName('form')[0];
-    var bday;
-    bday = document.getElementById("myDate").value;
+    let bday = document.getElementById("myDate").value;
     let gender = document.getElementById("gender").value
-    var bdayArray = bday.split('-');
+    let bdayArray = bday.split('-');
     //validation
     if(bdayArray.length !== 3){
       alert("invalid Date");
@@ -18,16 +16,16 @@ function callingFunction() {
       }
       else {
         document.getElementById("hidden").style.display = 'block';
-        var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];
+        let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];
         let maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
         let femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
-        var currentTime = new Date(            
+        let currentTime = new Date(            
             parseInt(bdayArray[0]),
             parseInt(bdayArray[1]) - 1, //month starts from 0
             parseInt(bdayArray[2])
         );        
-        var currentDay = currentTime.getDay();       
-        var currentDayName= days[currentDay];
+        let currentDay = currentTime.getDay();       
+        let currentDayName= days[currentDay];
         switch(gender){
           case "Male":
             if (currentDayName == days[0]){
