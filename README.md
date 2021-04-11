@@ -2,7 +2,7 @@
 ## Author
 Nicholas Ngetich
 ## Description
-This is a project that takes in your date of birth and and return an Akan-Name
+This is a project is about the Akan naming system used by the people of Ghana. They name their children after the day of the week they were born. The project contains a form with an embedded date calender which enables one to select the year, month and day in which you were born. As a user, you only need to click on selection appropriately on the date and gender input fields.
 ![alt text](https://github.com/ngetichnick/Akan-Name/blob/main/Akan-Name%20%20%20IP%20.png)
 ### Prerequisites
 You need to have git installed
@@ -22,5 +22,5 @@ To access this project on your local files, you can clone it using these steps
 View [live](https://ngetichnick.github.io/Akan-Name/)
 ### License
 This project is under:  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)  
 Copyright &copy; [2021] **[Nicholas Ngetich](https://github.com/ngetichnick)**
