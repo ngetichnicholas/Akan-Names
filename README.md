@@ -13,6 +13,23 @@ To access this project on your local files, you can clone it using these steps
 1. Open your terminal
 1. Use this command to clone $ git clone https://github.com/ngetichnick/Akan-Name.git
 1. This will clone the repositoty into your local folder
+## Behaviour Driven Development
+1. Provides a form for selecting date of birth and gender
+   - INPUT: "The user's date of birth is selected"
+   - INPUT: "The user's gender is selected"
+   - OUTPUT: "User's Akan name and Day of week borned displayed as per date and gender selected"
+1. Shows an error message when date is not selected
+   - INPUT: ""
+   - OUTPUT: "Alerts with error message"
+1. Shows an error message when gender is not selected
+   - INPUT: ""
+   - OUTPUT: "Alerts with error message"
+1. Clear the form on submit
+   - INPUT: "Click submit button"
+   - OUTPUT: "Clears the form data"
+1. Clears akan name output message
+   - INPUT: "Click Clear button"
+   - OUTPUT: "Clears the output message data"     
 ## Technologies Used
 - JavaScript
 - HTML
@@ -24,3 +41,6 @@ View [live](https://ngetichnick.github.io/Akan-Name/)
 This project is under:  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)  
 Copyright &copy; 2021 **[Nicholas Ngetich](https://github.com/ngetichnick)**
+### Questions?
+Twitter: **[@ngetichnichoh](https://twitter.com/ngetichnichoh)**  
+Email: **[nicholas.ngetich@student.moringaschool.com](mailto:nicholas.ngetich@student.moringaschool.com)**

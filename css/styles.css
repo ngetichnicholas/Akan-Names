@@ -37,6 +37,7 @@ span {
 #footer{
   height: 80px;
   background-color: #003049;
+  border-radius: 8px;
   color: white;
   display: flex;
   justify-content: space-around;

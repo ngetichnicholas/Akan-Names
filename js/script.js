@@ -105,3 +105,7 @@ function callingFunction() {
   frm.reset();  // Clear form fields
   return false; // Prevent page refresh 
 }
+function clearMessage(){
+  document.getElementById("hidden").style.display = 'none';
+
+}
