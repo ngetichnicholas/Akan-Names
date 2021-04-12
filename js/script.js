@@ -107,5 +107,4 @@ function callingFunction() {
 }
 function clearMessage(){
   document.getElementById("hidden").style.display = 'none';
-
 }
