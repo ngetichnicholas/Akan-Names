@@ -15,21 +15,21 @@ To access this project on your local files, you can clone it using these steps
 1. This will clone the repositoty into your local folder
 ## Behaviour Driven Development
 1. Provides a form for selecting date of birth and gender
-   - INPUT: "The user's date of birth is selected"
-   - INPUT: "The user's gender is selected"
-   - OUTPUT: "User's Akan name and Day of week borned displayed as per date and gender selected"
+   - INPUT: The user's date of birth is selected
+   - INPUT: The user's gender is selected
+   - OUTPUT: User's Akan name and Day of week borned displayed as per date and gender selected
 1. Shows an error message when date is not selected
-   - INPUT: ""
-   - OUTPUT: "Alerts with error message"
+   - INPUT: "mm/dd/yyyy"
+   - OUTPUT: Alerts with error message
 1. Shows an error message when gender is not selected
-   - INPUT: ""
-   - OUTPUT: "Alerts with error message"
+   - INPUT: "Select your gender"
+   - OUTPUT: Alerts with error message
 1. Clear the form on submit
-   - INPUT: "Click submit button"
-   - OUTPUT: "Clears the form data"
-1. Clears akan name output message
-   - INPUT: "Click Clear button"
-   - OUTPUT: "Clears the output message data"     
+   - INPUT: Click submit button
+   - OUTPUT: Clears the form data
+1. Clear akan name output message
+   - INPUT: Click Clear button
+   - OUTPUT: Clears the output message data   
 ## Technologies Used
 - JavaScript
 - HTML
